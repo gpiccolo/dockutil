@@ -4,8 +4,8 @@ general docker utilities
 ## Setup
 
 ```
-mkdir ~/goworkspace
-cd ~/goworkspace 
+mkdir -p ~/goworkspace/bin ~/goworkspace/src ~/goworkspace/pkg
+cd ~/goworkspace
 
 # add go settings. you can add this to your .bash_profile file
 export GOPATH=$HOME/goworkspace
